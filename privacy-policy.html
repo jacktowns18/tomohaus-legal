@@ -214,8 +214,8 @@ footer {
   <div class="eyebrow">TRKD Plus</div>
   <h1>Privacy Policy</h1>
   <div class="meta">
-    <span><strong>Effective:</strong> April 18, 2026</span>
-    <span><strong>Last Updated:</strong> April 18, 2026</span>
+    <span><strong>Effective:</strong> July 17, 2026</span>
+    <span><strong>Last Updated:</strong> July 17, 2026</span>
   </div>
 </header>
 
@@ -270,7 +270,16 @@ We do not sell your data, share it with advertisers, or use it for tracking acro
 </ul>
 <p>This data is private to your account and is not accessible to other users.</p>
 
-<h3>2.4 App Usage Data Stored On Your Device</h3>
+<h3>2.4 Apple Health Data</h3>
+<p>If you choose to connect TRKD Plus to Apple Health, the app can read certain health data from Apple's HealthKit framework so you don't have to enter it by hand. With your permission, we read:</p>
+<ul>
+  <li><strong>Body weight</strong> (Apple Health "body mass") — to keep your weight history up to date</li>
+  <li><strong>Body fat percentage</strong> — to track body composition over time</li>
+</ul>
+<p>This connection is optional and turned off by default. TRKD Plus requests access through Apple's standard Health permission screen, where you can allow or deny each data type individually. <strong>The app works fully without it</strong> — if you don't connect Apple Health, nothing changes, and you can enter these measurements yourself as described in section 2.3. You can turn the connection off at any time from within TRKD Plus or in the iOS Settings app under Privacy &amp; Security → Health.</p>
+<p>We read only the two data types listed above, and only to populate your own tracking inside the app. TRKD Plus does not read any other Apple Health data, and it does not write or send any data back to Apple Health.</p>
+
+<h3>2.5 App Usage Data Stored On Your Device</h3>
 <p>To improve your experience, the app stores small amounts of data locally on your device:</p>
 <ul>
   <li>Theme preference (light/dark mode)</li>
@@ -280,7 +289,7 @@ We do not sell your data, share it with advertisers, or use it for tracking acro
 </ul>
 <p>This data stays on your device and is not transmitted to us, except where noted as mirrored to your account (such as your notifications preference).</p>
 
-<h3>2.5 Data Collected Automatically by Our Service Provider</h3>
+<h3>2.6 Data Collected Automatically by Our Service Provider</h3>
 <p>We use Firebase (a Google Cloud service) to operate the app's backend. As part of providing that service, Firebase's infrastructure may automatically log:</p>
 <ul>
   <li>Your IP address (when connecting to authentication or database services)</li>
@@ -296,7 +305,7 @@ We do not sell your data, share it with advertisers, or use it for tracking acro
   <li>Precise or GPS location data</li>
   <li>Contact lists or address book information</li>
   <li>Device advertising identifiers (IDFA)</li>
-  <li>Information from other apps on your device</li>
+  <li>Information from other apps on your device, other than the Apple Health data you explicitly choose to connect (see section 2.4)</li>
   <li>Browsing history</li>
   <li>Biometric identifiers (such as fingerprints or face geometry)</li>
   <li>Financial account or payment information (the app is free with no in-app purchases as of v1.0)</li>
@@ -312,6 +321,7 @@ We do not sell your data, share it with advertisers, or use it for tracking acro
   <li><strong>Comply with legal obligations</strong> — such as responding to valid legal requests</li>
 </ul>
 <p>We do <strong>not</strong> use your data to serve advertisements, build profiles for marketing, sell or rent to third parties, train machine-learning models, share with data brokers, or track you across other apps or websites.</p>
+<p><strong>Apple Health data.</strong> Any data we read from Apple Health is used for one purpose only: to populate your own logs and progress tracking inside the app, exactly as if you had entered it yourself. We never use Apple Health data for advertising, marketing, or data-mining, and we do not use it to train machine-learning models — whether that data stays on your device or is stored in your account.</p>
 
 <h2 data-num="05">How We Share Your Information</h2>
 <p>We share information only in the following limited circumstances:</p>
@@ -324,6 +334,10 @@ We do not sell your data, share it with advertisers, or use it for tracking acro
 
 <h3>5.3 Business Transfers</h3>
 <p>If Tomo Haus LLC is involved in a merger, acquisition, or sale of assets, user information may be transferred as part of that transaction. We will notify you by email and/or a prominent notice in the app before your information becomes subject to a different privacy policy.</p>
+
+<h3>5.4 Apple Health Data</h3>
+<p>Data we read from Apple Health is treated the same as any other health data you track: it is stored in your personal Firebase account (see section 5.1) so it is available across your devices and included in your own progress history. Weight and body fat read from Apple Health flow only into your private account — we do not send it anywhere else.</p>
+<p><strong>We never share data read from Apple Health with third parties without your consent.</strong> It is not sold, not shared with advertisers or data brokers, and not disclosed to anyone else, except in the limited legal circumstances described in section 5.2 that apply to all account data.</p>
 
 <div class="highlight">
 We do not sell your personal information, and we do not share your personal information with third parties for advertising or cross-context behavioral advertising purposes.
@@ -385,6 +399,7 @@ We do not sell your personal information, and we do not share your personal info
 <ul>
   <li><a href="https://firebase.google.com/support/privacy" rel="noopener"><strong>Firebase / Google Cloud</strong></a> — authentication, database, file storage</li>
   <li><a href="https://www.apple.com/legal/privacy/" rel="noopener"><strong>Apple App Store</strong></a> — distribution</li>
+  <li><a href="https://www.apple.com/legal/privacy/" rel="noopener"><strong>Apple Health (HealthKit)</strong></a> — optional; when you connect it, the app reads the health data described in section 2.4 and stores it in your Firebase account for your own tracking</li>
 </ul>
 <p>We do not control, and are not responsible for, the privacy practices of these third parties.</p>
 
